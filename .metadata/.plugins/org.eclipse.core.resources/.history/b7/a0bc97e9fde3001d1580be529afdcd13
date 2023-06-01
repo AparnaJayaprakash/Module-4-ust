@@ -1,0 +1,10 @@
+package com.example.demo.AwsRepository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.demo.AwsResource.Product;
+
+@Repository
+public interface ProductRespository extends JpaRepository<Product, Long> {
+
+}
